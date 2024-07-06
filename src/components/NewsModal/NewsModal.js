@@ -2,6 +2,7 @@ import React from 'react';
 import "./NewsModal.css"; // Add styles for the modal here
 import { GiCrossedAirFlows } from 'react-icons/gi';
 import { Carousel } from 'react-responsive-carousel';
+import YouTube from 'react-youtube';
 
 const importImages = (imageFilenames) => {
   return imageFilenames.map(filename => ({
@@ -12,7 +13,7 @@ const importImages = (imageFilenames) => {
 
 const NewsModal = ({ newsItem, onClose }) => {
   const gallery = newsItem.images ? importImages(newsItem.images) : [];
-
+  console.log(newsItem)
   return (
     <div className="modal__container slide-bottom">
        <GiCrossedAirFlows
@@ -43,9 +44,10 @@ const NewsModal = ({ newsItem, onClose }) => {
                   </div>
               </div>
           ))}
-  
+          
           </Carousel>
         )}
+        {newsItem.video && (<YouTube videoId={newsItem.video} className='youtube'/>)}
       </div>
     </div>
   );
