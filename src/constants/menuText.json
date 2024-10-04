@@ -1,0 +1,311 @@
+[
+    [
+        {
+            "name": "Shoyu Ramen",
+            "description": "Housemade Soy Sauce, 2pcs Chashu, Spinach, Green Onion",
+            "sizes": [
+                { "size": "Regular", "price": "$16.25" },
+                { "size": "Large", "price": "$18.75" }
+            ]
+        },
+        {
+            "name": "Black Tonkotsu",
+            "description": "Strong Pork Broth and Black Garlic Sauce Comes with Thin Noodle, 2pcs Chashu, Spinach, Green Onion, 1/2 Flavored Egg",
+            "sizes": [
+                { "size": "Regular", "price": "$17.75" },
+                { "size": "Large", "price": "$20.25" }
+            ]
+        },
+        {
+            "name": "Mazesoba",
+            "description": "Spicy Soupless Noodle, Ground Pork, Bamboo Shoots, Bean Sprouts, Shredded Toasted Seaweed, Green Onion, Egg Yolk",
+            "sizes": [
+                { "size": "One Size", "price": "$17.25" }
+            ]
+        },
+        {
+            "name": "Garlic Miso",
+            "description": "Garlic Tasted Soy Bean, 2pcs Chashu, Spinach, Green Onion, 1/2 Flavored Egg",
+            "sizes": [
+                { "size": "Regular", "price": "$17.75" },
+                { "size": "Large", "price": "$20.25" }
+            ]
+        },
+        {
+            "name": "Miso",
+            "description": "Soy Bean, 2pcs Chashu, Spinach, Green Onion, 1/2 Flavored Egg",
+            "sizes": [
+                { "size": "Regular", "price": "$16.75" },
+                { "size": "Large", "price": "$19.25" }
+            ]
+        },
+        {
+            "name": "Spicy Miso",
+            "description": "Spicy Miso Ramen, 2pcs Chashu, Spinach, Green Onion, 1/2 Flavored Egg",
+            "sizes": [
+                { "size": "Regular", "price": "$17.25" },
+                { "size": "Large", "price": "$19.75" }
+            ]
+        },
+        {
+            "name": "Shio",
+            "description": "Housemade Salt Sauce, 2pcs Chashu, Spinach, Green Onion, 1/2 Flavored Egg",
+            "sizes": [
+                { "size": "Regular", "price": "$16.25" },
+                { "size": "Large", "price": "$18.75" }
+            ]
+        },
+        {
+            "name": "Tantanmen",
+            "description": "Spicy Sesame Soup Base, Ground Pork, Spinach, White Green Onion, 1/2 Flavored Egg",
+            "sizes": [
+                { "size": "Regular", "price": "$17.00" },
+                { "size": "Large", "price": "$19.50" }
+            ]
+        },
+        {
+            "name": "Tsukemen",
+            "description": "Dipping Housemade Soy Sauce, 2pcs Chashu, Shredded Toasted Seaweed, 1/2 Flavored Egg",
+            "sizes": [
+                { "size": "One Size", "price": "$16.50" }
+            ]
+        },
+        {
+            "name": "Curry",
+            "description": "Housemade Curry Sauce with Beef Chunk, 1/2 Flavored Egg",
+            "sizes": [
+                { "size": "One Size", "price": "$17.25" }
+            ]
+        },
+        {
+            "name": "Volcano",
+            "description": "Housemade Spicy Base with 12 Kinds of Spicy Ingredients, 2pcs Chashu, Spinach, Green Onion, 1/2 Flavored Egg",
+            "sizes": [
+                { "size": "Regular", "price": "$17.50" },
+                { "size": "Large", "price": "$20.00" }
+            ]
+        },
+        {
+            "name": "Vegan",
+            "description": "Mushroom and Kombu Dashi Comes with Spinach Noodle, Spinach, Green Onion, Corn, 1/2 Flavored Egg",
+            "sizes": [
+                { "size": "Regular", "price": "$16.75" },
+                { "size": "Large", "price": "$19.25" }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "Flavored Egg",
+            "price": "$2.25"
+        },
+        {
+            "name": "Bamboo Shoot",
+            "price": "$2.75"
+        },
+        {
+            "name": "Kikurage",
+            "price": "$1.95"
+        },
+        {
+            "name": "White Green Onions",
+            "price": "$2.25"
+        },
+        {
+            "name": "Spinach",
+            "price": "$2.75"
+        },
+        {
+            "name": "Toasted Seaweed",
+            "price": "$2.50"
+        },
+        {
+            "name": "Butter Corn",
+            "price": "$2.95"
+        },
+        {
+            "name": "Yakibuta (BBQ Pork Belly) / 2pcs",
+            "price": "$3.95"
+        },
+        {
+            "name": "Yakibuta (BBQ Pork Belly) / 5pcs",
+            "price": "$6.95"
+        },
+        {
+            "name": "Mazesoba Meat",
+            "price": "$6.25"
+        },
+        {
+            "name": "Chashu / 3pcs",
+            "price": "$4.75"
+        },
+        {
+            "name": "Mentaiko",
+            "price": "$3.95"
+        },
+        {
+            "name": "Green Onion",
+            "price": "$1.75"
+        },
+        {
+            "name": "Kikurage",
+            "price": "$1.95"
+        },
+        {
+            "name": "Bean Sprouts",
+            "price": "$2.75"
+        },
+        {
+            "name": "Butter Corn",
+            "price": "$2.75"
+        },
+        {
+            "name": "Kimchi",
+            "price": "$2.50"
+        },
+        {
+            "name": "Veggie Mountain (Cabbage & Bean Sprouts)",
+            "price": "$5.50"
+        },
+        {
+            "name": "Black Garlic Sauce",
+            "price": "$1.65"
+        },
+        {
+            "name": "Spicy Paste",
+            "price": "$1.75"
+        },
+        {
+            "name": "Change to Thin Noodle",
+            "price": "$0.75"
+        },
+        {
+            "name": "Change to Spinach Noodle",
+            "price": "$1.45"
+        }
+    ],
+    [
+        {
+            "name": "Onigiri",
+            "description": "Rice ball with Bonito flakes, Spicy Chashu, Chashu, Salmon, or Tuna",
+            "price": "$3.75/ $4.25 / $4.75"
+        },
+        {
+            "name": "Gyoza",
+            "description": "Pork Dumpling, Pan Fried / Deep Fried",
+            "price": "$4.00"
+        },
+        {
+            "name": "Chashu Don",
+            "description": "Pork with teriyaki sauce & mayo on rice",
+            "price": "$5.25"
+        },
+        {
+            "name": "Karaage",
+            "description": "Deep fried chicken",
+            "price": "$5.00"
+        },
+        {
+            "name": "Spicy Chashu Don",
+            "description": "Pork with teriyaki sauce, mayo and spicy sauce on rice",
+            "price": "$5.50"
+        },
+        {
+            "name": "Spicy Karaage",
+            "description": "Spicy deep fried chicken",
+            "price": "$5.25"
+        },
+        {
+            "name": "Mentaiko Don",
+            "description": "Spicy cod roe with shredded seaweed on rice",
+            "prices": "$5.75"
+        },
+        {
+            "name": "Salmon Don",
+            "description": "Grilled salmon with teriyaki sauce & mayo on rice",
+            "price": "$6.25"
+        },
+        {
+            "name": "Karaage",
+            "description": "Deep fried chicken (6pcs)",
+            "price": "$8.25"
+        },
+        {
+            "name": "Spicy Karaage",
+            "description": "Spicy deep fried chicken (6pcs)",
+            "price": "$8.50"
+        },
+        {
+            "name": "Gyoza",
+            "description": "Pan Fried / Deep Fried (5pcs)",
+            "price": "$6.95"
+        },
+        {
+            "name": "Takoyaki",
+            "price": "$7.50"
+        },
+        {
+            "name": "Kimchi",
+            "price": "$3.75"
+        },
+        {
+            "name": "Corn with Butter",
+            "price": "$3.95"
+        },
+        {
+            "name": "Seaweed Salad",
+            "price": "$3.50"
+        },
+        {
+            "name": "Chashu Don",
+            "price": "$8.25"
+        },
+        {
+            "name": "Spicy Chashu Don",
+            "price": "$8.50"
+        },
+        {
+            "name": "Salmon Don",
+            "price": "$9.95"
+        },
+        {
+            "name": "Curry Rice",
+            "price": "$13.75"
+        },
+        {
+            "name": "Cheese Buta Don",
+            "price": "$9.95"
+        },
+        {
+            "name": "Rice",
+            "price": "$2.50"
+        },
+        {
+            "name": "Pops",
+            "description": "Coke, Coke Zero, Sprite, Canada Dry, Nestea",
+            "price": "$2.95"
+        },
+        {
+            "name": "Japanese Macha",
+            "description": "Sweetened with honey / unsweetened",
+            "price": "$3.75"
+        },
+        {
+            "name": "Special Soda",
+            "description": "Mango, Green apple, Peach, Passion fruit, Melon, Grapefruit, Pineapple",
+            "price": "$3.75"
+        },
+        {
+            "name": "Yuzu Soda",
+            "price": "$4.75"
+        },
+        {
+            "name": "Green Tea (Pot)",
+            "price": "$1.50"
+        }
+     
+    ]
+    
+    
+    
+]
