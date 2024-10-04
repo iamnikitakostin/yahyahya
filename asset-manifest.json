@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yahyahya/static/css/main.2572c8b5.css",
-    "main.js": "/yahyahya/static/js/main.a5e7048e.js",
+    "main.css": "/yahyahya/static/css/main.437c97f8.css",
+    "main.js": "/yahyahya/static/js/main.6ea83bbd.js",
     "static/media/about-us.mp4": "/yahyahya/static/media/about-us.9611d0e9459540b23674.mp4",
     "static/media/background.png": "/yahyahya/static/media/background.59b6fa5b8df457a52f39.png",
     "static/media/promo_video.mp4": "/yahyahya/static/media/promo_video.208af97772ab032928a2.mp4",
@@ -90,11 +90,11 @@
     "static/media/logo.png": "/yahyahya/static/media/logo.3f725736faa3b2209a08.png",
     "static/media/ramen_header-sm.jpeg": "/yahyahya/static/media/ramen_header-sm.b4d7a0154eabb4ec9168.jpeg",
     "index.html": "/yahyahya/index.html",
-    "main.2572c8b5.css.map": "/yahyahya/static/css/main.2572c8b5.css.map",
-    "main.a5e7048e.js.map": "/yahyahya/static/js/main.a5e7048e.js.map"
+    "main.437c97f8.css.map": "/yahyahya/static/css/main.437c97f8.css.map",
+    "main.6ea83bbd.js.map": "/yahyahya/static/js/main.6ea83bbd.js.map"
   },
   "entrypoints": [
-    "static/css/main.2572c8b5.css",
-    "static/js/main.a5e7048e.js"
+    "static/css/main.437c97f8.css",
+    "static/js/main.6ea83bbd.js"
   ]
 }
