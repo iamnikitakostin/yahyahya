@@ -16,15 +16,15 @@ function NavBar({handleChangeLanguage}) {
     <nav className='app__navbar'>
       <div className="app__navbar-top">
         <div className="app__navbar-logo">
-          <a href='/yahyahya/#'><img src={images.logo} alt="logo" decoding='async'/></a>
+          <a href='/#'><img src={images.logo} alt="logo" decoding='async'/></a>
         </div>
         <ul className='app__navbar-links'>
-          <li className="p__opensans"><a href='/yahyahya/#'>{t("navbar.home")}</a></li>
-          <li className="p__opensans"><a href='/yahyahya/#about'>{t("navbar.about")}</a></li>
-          <li className="p__opensans"><a href='/yahyahya/#menu'>{t("navbar.menu")}</a></li>
-          <li className="p__opensans"><a href='/yahyahya/#news'>{t("navbar.news")}</a></li>
-          <li className="p__opensans"><a href='/yahyahya/#gallery'>{t("navbar.gallery")}</a></li>
-          <li className="p__opensans"><a href='/yahyahya/#contact'>{t("navbar.contact")}</a></li>
+          <li className="p__opensans"><a href='/#'>{t("navbar.home")}</a></li>
+          <li className="p__opensans"><a href='/#about'>{t("navbar.about")}</a></li>
+          <li className="p__opensans"><a href='/#menu'>{t("navbar.menu")}</a></li>
+          <li className="p__opensans"><a href='/#news'>{t("navbar.news")}</a></li>
+          <li className="p__opensans"><a href='/#gallery'>{t("navbar.gallery")}</a></li>
+          <li className="p__opensans"><a href='/#contact'>{t("navbar.contact")}</a></li>
         </ul>
         <div className="app__navbar-lang">
           <div className="dropdown">
@@ -63,12 +63,12 @@ function NavBar({handleChangeLanguage}) {
               onClick={() => setToggleMenu(false)}
               />
             <ul className='app__navbar-smallscreen_links'>
-              <li className="p__opensans"><a href='/yahyahya/#' onClick={() => setToggleMenu(false)}>{t("navbar.home")}</a></li>
-              <li className="p__opensans"><a href='/yahyahya/#about' onClick={() => setToggleMenu(false)}>{t("navbar.about")}</a></li>
-              <li className="p__opensans"><a href='/yahyahya/#menu' onClick={() => setToggleMenu(false)}>{t("navbar.menu")}</a></li>
-              <li className="p__opensans"><a href='/yahyahya/#news' onClick={() => setToggleMenu(false)}>{t("navbar.news")}</a></li>
-              <li className="p__opensans"><a href='/yahyahya/#gallery' onClick={() => setToggleMenu(false)}>{t("navbar.gallery")}</a></li>
-              <li className="p__opensans"><a href='/yahyahya/#contact' onClick={() => setToggleMenu(false)}>{t("navbar.contact")}</a></li>
+              <li className="p__opensans"><a href='/#' onClick={() => setToggleMenu(false)}>{t("navbar.home")}</a></li>
+              <li className="p__opensans"><a href='/#about' onClick={() => setToggleMenu(false)}>{t("navbar.about")}</a></li>
+              <li className="p__opensans"><a href='/#menu' onClick={() => setToggleMenu(false)}>{t("navbar.menu")}</a></li>
+              <li className="p__opensans"><a href='/#news' onClick={() => setToggleMenu(false)}>{t("navbar.news")}</a></li>
+              <li className="p__opensans"><a href='/#gallery' onClick={() => setToggleMenu(false)}>{t("navbar.gallery")}</a></li>
+              <li className="p__opensans"><a href='/#contact' onClick={() => setToggleMenu(false)}>{t("navbar.contact")}</a></li>
               <li className='app__navbar-order p__opensans'>
                 <a href='https://www.doordash.com/en-CA/store/yah-yah-ya-ramen-richmond-576879/' onClick={() => setToggleMenu(false)} className='p__opensans' target='_blank' rel="noreferrer">Doordash</a>
                 <div/>
