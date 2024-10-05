@@ -13,6 +13,7 @@ import {
 import { GiCrossedAirFlows } from 'react-icons/gi';
 
 import menuText from "../../constants/menuText.json";
+import { Helmet } from 'react-helmet';
 
 function Menu() {
   const [t] = useTranslation(["global"]);
@@ -37,6 +38,11 @@ function Menu() {
 
   return (
     <div className='app__menu section__padding app__wrapper app__bg' id="menu">
+      <Helmet>
+        <title>Menu - Yah-Yah-Ya Ramen</title>
+        <meta name="description" content="Explore the Yah-Yah-Ya Ramen menu including Iekei ramen, tsukemen, vegan options, and more. Find your favorite dish at the best ramen shop in Richmond."/>
+        <meta name="keywords" content="menu, ramen menu, yah-yah-ya ramen, tsukemen, vegan ramen, best ramen in richmond, japanese ramen dishes, richmond ramen shop"/>
+      </Helmet>
       <h1 className='headtext__tenor'>{t("navbar.menu")}</h1>
       
       <div className='app__menu-inventory'>

@@ -5,6 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "./AboutUs.css"
 import video from "../../assets/about-us.mp4";
 import { useTranslation } from 'react-i18next'
+import { Helmet } from 'react-helmet';
 
 function AboutUs() {
   const [t] = useTranslation("global");
@@ -12,6 +13,11 @@ function AboutUs() {
 
   return (
     <div className='app__aboutUs section__padding app__wrapper app__bg' id="about">
+      <Helmet>
+        <title>About Us - Yah-Yah-Ya Ramen</title>
+        <meta name="description" content="Learn more about Yah-Yah-Ya Ramen, the most authentic Iekei ramen in Richmond, BC. Discover our story, passion for ramen, and commitment to quality."/>
+        <meta name="keywords" content="about us, yah-yah-ya ramen, ramen shop, best ramen in richmond, richmond ramen story, japanese ramen, vegan ramen options"/>
+      </Helmet>
       <div className='app__aboutUs-video flex__center'>
         <video
         src={video}

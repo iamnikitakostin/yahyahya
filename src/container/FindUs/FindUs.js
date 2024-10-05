@@ -6,6 +6,7 @@ import { TbCircleLetterF } from "react-icons/tb";
 
 import images from '../../constants/images';
 import { useTranslation } from 'react-i18next';
+import { Helmet } from 'react-helmet';
 
 
 function FindUs() {
@@ -13,6 +14,11 @@ function FindUs() {
 
   return (
     <div className='app__findUs app__wrapper section__padding' id="contact">
+      <Helmet>
+        <title>Contact Us - Yah-Yah-Ya Ramen</title>
+        <meta name="description" content="Get in touch with Yah-Yah-Ya Ramen in Richmond, BC. Find our contact details, location, and hours of operation."/>
+        <meta name="keywords" content="contact us, yah-yah-ya ramen, ramen shop contact, richmond ramen location, ramen restaurant address, ramen hours of operation"/>
+      </Helmet>
       <div className="app__findUs-info">
         <h1 className='headtext__tenor'>{t("contact.title")}</h1>
         <div className='findUs__location'>
